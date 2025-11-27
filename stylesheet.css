@@ -88,8 +88,7 @@ header{
     grid-row: 1/span 2;
     grid-column: 1/ 6;
     background-color: red;
-
-}   
+}
 
 .row_2{
     grid-row: 3/5;
@@ -101,10 +100,26 @@ header{
 .row_3{
     grid-row: 5/6;
     grid-column: 1/ 6;
-    background-color: yellow;
+    align-content: center;
 
 }   
 
+.row_3_content{
+    background-color: #3882f6;
+    border-radius: 20px;
+    align-content: center;
+    width: 50vw;
+    text-align: center;
+    color: white;
+}
+
+
+.row_3_button{
+    background: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}
 
 
 
