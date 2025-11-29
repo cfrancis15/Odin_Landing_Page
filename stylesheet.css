@@ -91,17 +91,20 @@ header{
 }
 
 .row_2{
+    display: grid;
     grid-row: 3/5;
     grid-column: 1/ 6;
-    background-color: green;
+    background-color: lightgray;
+    place-items: center;
+}
 
-}   
 
 .row_3{
     
+    display: grid;
     grid-row: 5/6;
     grid-column: 1/ 6;
-    align-content: center;
+    place-items: center;
 
 }   
 
@@ -125,6 +128,9 @@ header{
     margin: 10px;
     padding: 5px;
 }
+
+
+
 
 
 
