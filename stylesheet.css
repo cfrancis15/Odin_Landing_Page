@@ -87,8 +87,39 @@ header{
 .row_1{
     grid-row: 1/span 2;
     grid-column: 1/ 6;
-    background-color: red;
+    background-color: white;
 }
+
+.row_1_heading{
+    display: grid;
+    justify-content: center;
+
+}
+
+.info_boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.info_box{
+    margin: 2vh;
+    border:solid #3882f6 3px;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 .row_2{
     display: grid;
@@ -96,6 +127,8 @@ header{
     grid-column: 1/ 6;
     background-color: lightgray;
     place-items: center;
+
+    font-size: x-large;
 }
 
 
