@@ -106,16 +106,26 @@ header{
     border:solid #3882f6 3px;
     width: 7vw;
     height: 7vw;
-    border-radius: 20px;
+    border-radius: 10px;
 
 
 
 }
 
 
+.text_box_layout{
+    display: flex;
+    justify-content: center;
+}
 
+.text_box{
+    margin: 2vh;
+    width: 7vw;
+    height: 7vw;
 
+    text-align: center;
 
+}
 
 
 
@@ -129,6 +139,8 @@ header{
     place-items: center;
 
     font-size: x-large;
+
+    text-align: center;
 }
 
 
