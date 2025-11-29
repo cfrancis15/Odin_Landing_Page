@@ -98,6 +98,7 @@ header{
 }   
 
 .row_3{
+    
     grid-row: 5/6;
     grid-column: 1/ 6;
     align-content: center;
@@ -111,6 +112,8 @@ header{
     width: 50vw;
     text-align: center;
     color: white;
+
+    margin: 0 auto;
 }
 
 
@@ -119,6 +122,8 @@ header{
     color: white;
     border-color: white;
     border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
 }
 
 
